@@ -1,0 +1,919 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bws-google-maps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-27 12:58+0200\n"
+"PO-Revision-Date: 2019-12-27 12:58+0200\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft <plugin@bestwebsoft.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x:1,2c;_ex:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bws_menu\n"
+
+#: bws-google-maps.php:39
+msgid "Maps Editor"
+msgstr "Редактор Maps"
+
+#: bws-google-maps.php:39 includes/class-gglmps-add-new.php:223
+msgid "Add New"
+msgstr "Додати нову"
+
+#: bws-google-maps.php:41 bws-google-maps.php:212
+msgid "Maps Appearance"
+msgstr "Вигляд Maps"
+
+#: bws-google-maps.php:41
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: bws-google-maps.php:43 includes/class-gglmps-settings.php:140
+msgid "Maps Settings"
+msgstr "Налаштування Maps"
+
+#: bws-google-maps.php:43 bws-google-maps.php:201 bws-google-maps.php:886
+#: bws-google-maps.php:901 includes/class-gglmps-add-new.php:22
+#: includes/class-gglmps-settings.php:23
+msgid "Settings"
+msgstr "Налаштування"
+
+#: bws-google-maps.php:50 bws-google-maps.php:401
+msgid "Upgrade to Pro"
+msgstr "Оновити до Pro"
+
+#: bws-google-maps.php:218
+msgid ""
+"Install required styles in order to apply them to certain maps on Maps "
+"Editor page"
+msgstr ""
+"Встановіть потрібні стилі для подальшого їх застосування на сторінці "
+"редактора Maps"
+
+#: bws-google-maps.php:223
+msgid "Snazzymaps API Key"
+msgstr "API ключ Snazzymaps"
+
+#: bws-google-maps.php:227
+msgid "Save"
+msgstr "Зберегти"
+
+#: bws-google-maps.php:232
+msgid ""
+"You can use your own API key which allows using favorite styles from your "
+"Snazzymaps account"
+msgstr ""
+"Ви можете використовувати власний API ключ, щоб застосовувати обрані стилі "
+"вашого акаунту в Snazzymaps"
+
+#: bws-google-maps.php:233
+msgid "Personal API key"
+msgstr "Ваш персональний API ключ"
+
+#: bws-google-maps.php:234
+msgid "is available after"
+msgstr "Ви отримаєте після"
+
+#: bws-google-maps.php:235
+msgid "registration"
+msgstr "реєстрації"
+
+#: bws-google-maps.php:249
+msgctxt "view all styles"
+msgid "All"
+msgstr "Всі"
+
+#: bws-google-maps.php:252
+msgctxt "view all installed styles"
+msgid "Installed"
+msgstr "Встановлені"
+
+#: bws-google-maps.php:255
+msgid "Favorites"
+msgstr "Улюблені"
+
+#: bws-google-maps.php:260
+msgid "Filter by color"
+msgstr "Вибір за кольором"
+
+#: bws-google-maps.php:265
+msgid "Filter by Tag"
+msgstr "Вибір за тегами"
+
+#: bws-google-maps.php:268
+msgid "Search..."
+msgstr "Шукати..."
+
+#: bws-google-maps.php:271
+msgid "Sort by"
+msgstr "Сортувати по"
+
+#: bws-google-maps.php:274
+msgid "Apply"
+msgstr "Застосувати"
+
+#: bws-google-maps.php:281 bws-google-maps.php:380
+msgid "items"
+msgstr "елементів"
+
+#: bws-google-maps.php:287 bws-google-maps.php:386
+msgid "Page"
+msgstr "Сторінка"
+
+#: bws-google-maps.php:287 bws-google-maps.php:386
+msgid "of"
+msgstr "з"
+
+#: bws-google-maps.php:350 includes/class-gglmps-add-new.php:452
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: bws-google-maps.php:356
+msgid "Set as default"
+msgstr "Встановити за замовчуванням"
+
+#: bws-google-maps.php:359 bws-google-maps.php:562 bws-google-maps.php:605
+#: bws-google-maps.php:678 includes/class-gglmps-add-new.php:337
+msgid "Delete"
+msgstr "Видалити"
+
+#: bws-google-maps.php:361
+msgid "Install"
+msgstr "Встановити"
+
+#: bws-google-maps.php:367
+msgctxt "style is installed"
+msgid "Already Installed"
+msgstr "Збережено"
+
+#: bws-google-maps.php:369
+msgid "Installed"
+msgstr "Встановлена"
+
+#: bws-google-maps.php:438
+#, php-format
+msgid "%s maps deleted."
+msgstr "%s карт видалено."
+
+#: bws-google-maps.php:447
+msgid "Map deleted."
+msgstr "Карту видалено."
+
+#: bws-google-maps.php:479 includes/class-gglmps-add-new.php:97
+#: includes/class-gglmps-settings.php:69
+msgid "WARNING:"
+msgstr "УВАГА:"
+
+#: bws-google-maps.php:480 includes/class-gglmps-add-new.php:98
+#: includes/class-gglmps-settings.php:70
+msgid "Maps only works with JavaScript enabled."
+msgstr "Maps працює тільки з увімкненим JavaScript."
+
+#: bws-google-maps.php:512
+msgid "map"
+msgstr "карта"
+
+#: bws-google-maps.php:513
+msgid "maps"
+msgstr "карти"
+
+#: bws-google-maps.php:525
+msgid "Title"
+msgstr "Назва"
+
+#: bws-google-maps.php:526
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: bws-google-maps.php:527
+msgid "Date"
+msgstr "Дата"
+
+#: bws-google-maps.php:528
+msgid "ID"
+msgstr "ID"
+
+#: bws-google-maps.php:561 bws-google-maps.php:679
+#: includes/class-gglmps-add-new.php:338
+msgid "Edit"
+msgstr "Змінити"
+
+#: bws-google-maps.php:572 bws-google-maps.php:850
+msgid "Maps not found."
+msgstr "Карт не знайдено."
+
+#: bws-google-maps.php:638
+msgid "Map(s)"
+msgstr "Карт(а)"
+
+#: bws-google-maps.php:680 includes/class-gglmps-add-new.php:331
+msgid "No markers"
+msgstr "Немає маркерів"
+
+#: bws-google-maps.php:681
+msgid "Get coordinates"
+msgstr "Отримати координати"
+
+#: bws-google-maps.php:761
+msgid "You have not specified map ID"
+msgstr "Ви не вказали ID карти"
+
+#: bws-google-maps.php:813
+msgid "Please, enable JavaScript!"
+msgstr "Будь ласка, увімкніть JavaScript!"
+
+#: bws-google-maps.php:814
+msgid "HELP"
+msgstr "ДОПОМОГА"
+
+#: bws-google-maps.php:822 includes/class-gglmps-add-new.php:68
+msgid "Map with"
+msgstr "Карту з"
+
+#: bws-google-maps.php:824
+msgid "not found"
+msgstr "не знайдено"
+
+#: bws-google-maps.php:847
+msgid "Map"
+msgstr "Карта"
+
+#: bws-google-maps.php:902
+msgid "FAQ"
+msgstr "FAQ"
+
+#: bws-google-maps.php:903
+msgid "Support"
+msgstr "Техпідтримка"
+
+#: includes/class-gglmps-add-new.php:70
+msgid "not found. You can return to the"
+msgstr "не знайдена. Ви можете повернутися в"
+
+#: includes/class-gglmps-add-new.php:71
+msgid "Maps manager"
+msgstr "менеджер Maps"
+
+#: includes/class-gglmps-add-new.php:72
+msgid "or create new map in the"
+msgstr "чи створити нову карту в"
+
+#: includes/class-gglmps-add-new.php:73
+msgid "Maps editor"
+msgstr "редакторі Maps"
+
+#: includes/class-gglmps-add-new.php:107
+msgid "Notice:"
+msgstr "Зауважте:"
+
+#: includes/class-gglmps-add-new.php:108
+msgid "In order to create a new map, you must enter the API key on the"
+msgstr "Щоб створити нову карту, потрібно ввести ключ API у"
+
+#: includes/class-gglmps-add-new.php:109
+msgid "Maps settings page"
+msgstr "налаштуваннях Maps"
+
+#: includes/class-gglmps-add-new.php:127
+msgid "No title"
+msgstr "Без назви"
+
+#: includes/class-gglmps-add-new.php:195
+msgid "Map created."
+msgstr "Карту створено."
+
+#: includes/class-gglmps-add-new.php:202
+msgid "Map updated."
+msgstr "Карту оновлено."
+
+#: includes/class-gglmps-add-new.php:223
+msgid "Edit Map"
+msgstr "Змінити Карту"
+
+#: includes/class-gglmps-add-new.php:225
+msgid "Add New Map"
+msgstr "Додати нову карту"
+
+#: includes/class-gglmps-add-new.php:235
+msgid "Enter title here"
+msgstr "Введіть назву тут"
+
+#: includes/class-gglmps-add-new.php:244 includes/class-gglmps-add-new.php:250
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: includes/class-gglmps-add-new.php:250
+msgid "Update"
+msgstr "Оновити"
+
+#: includes/class-gglmps-add-new.php:261
+msgid "Map Shortcode"
+msgstr "Шорткод карти"
+
+#: includes/class-gglmps-add-new.php:264
+msgid ""
+"Add Map to your posts, pages, custom post types or widgets by using the "
+"following shortcode:"
+msgstr ""
+"Додати карту на ваші записи, сторінки, користувацькі типи записів за "
+"допомогою даного шорткода:"
+
+#: includes/class-gglmps-add-new.php:275
+msgid "Map Preview"
+msgstr "Попередній перегляд карти"
+
+#: includes/class-gglmps-add-new.php:280 includes/class-gglmps-add-new.php:445
+#: includes/class-gglmps-settings.php:266
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-gglmps-add-new.php:299
+msgid "Map Settings"
+msgstr "Налаштування карти"
+
+#: includes/class-gglmps-add-new.php:304
+msgid "Marker Location"
+msgstr "Місцезнаходження маркеру"
+
+#: includes/class-gglmps-add-new.php:306
+msgid "Enter location or coordinates"
+msgstr "Введіть місцезнаходження чи координати"
+
+#: includes/class-gglmps-add-new.php:308
+msgid ""
+"You should enter coordinates in decimal degrees with no spaces. Example "
+"coordinates:"
+msgstr ""
+"Координати мають бути введені в десяткових градусах без пробілів. Приклад "
+"координат:"
+
+#: includes/class-gglmps-add-new.php:314
+msgid "Marker Tooltip"
+msgstr "Підказка маркеру"
+
+#: includes/class-gglmps-add-new.php:316
+msgid "Enter tooltip"
+msgstr "Введіть підказку"
+
+#: includes/class-gglmps-add-new.php:317
+msgid "You can use HTML tags and attributes."
+msgstr "Ви можете використовувати HTML теги та атрибути."
+
+#: includes/class-gglmps-add-new.php:319
+msgid "Add marker to list"
+msgstr "Додати маркер у список"
+
+#: includes/class-gglmps-add-new.php:320
+msgid "Update marker"
+msgstr "Оновити маркер"
+
+#: includes/class-gglmps-add-new.php:321
+msgid "Cancel"
+msgstr "Відміна"
+
+#: includes/class-gglmps-add-new.php:326
+msgid "Markers List"
+msgstr "Список маркерів"
+
+#: includes/class-gglmps-add-new.php:355 includes/class-gglmps-settings.php:176
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/class-gglmps-add-new.php:357 includes/class-gglmps-settings.php:178
+msgid "Enter width"
+msgstr "Введіть ширину"
+
+#: includes/class-gglmps-add-new.php:359 includes/class-gglmps-add-new.php:368
+#: includes/class-gglmps-settings.php:180
+#: includes/class-gglmps-settings.php:189
+msgid "px"
+msgstr "пікс"
+
+#: includes/class-gglmps-add-new.php:365 includes/class-gglmps-settings.php:186
+msgid "Height"
+msgstr "Висота"
+
+#: includes/class-gglmps-add-new.php:367 includes/class-gglmps-settings.php:188
+msgid "Enter height"
+msgstr "Введіть висоту"
+
+#: includes/class-gglmps-add-new.php:372 includes/class-gglmps-settings.php:193
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: includes/class-gglmps-add-new.php:375 includes/class-gglmps-settings.php:196
+msgid "Left"
+msgstr "По лівому краю"
+
+#: includes/class-gglmps-add-new.php:376 includes/class-gglmps-settings.php:197
+msgid "Center"
+msgstr "По центру"
+
+#: includes/class-gglmps-add-new.php:377 includes/class-gglmps-settings.php:198
+msgid "Right"
+msgstr "По правому краю"
+
+#: includes/class-gglmps-add-new.php:382 includes/class-gglmps-add-new.php:420
+#: includes/class-gglmps-settings.php:203
+#: includes/class-gglmps-settings.php:241
+msgid "Type"
+msgstr "Тип"
+
+#: includes/class-gglmps-add-new.php:385 includes/class-gglmps-settings.php:206
+msgid "Roadmap"
+msgstr "Дорожній"
+
+#: includes/class-gglmps-add-new.php:386 includes/class-gglmps-settings.php:207
+msgid "Terrain"
+msgstr "Рельєфний"
+
+#: includes/class-gglmps-add-new.php:387 includes/class-gglmps-settings.php:208
+msgid "Satellite"
+msgstr "Супутниковий"
+
+#: includes/class-gglmps-add-new.php:388 includes/class-gglmps-settings.php:209
+msgid "Hybrid"
+msgstr "Гібридний"
+
+#: includes/class-gglmps-add-new.php:393 includes/class-gglmps-settings.php:214
+msgid "View"
+msgstr "Вид"
+
+#: includes/class-gglmps-add-new.php:396 includes/class-gglmps-settings.php:217
+msgid ""
+"This option is only available for Satellite and Hybrid map types (if such "
+"snapshots are available)."
+msgstr ""
+"Ця опція доступна тільки для Супутникового і Гібридного типів карт (якщо "
+"такі знімки є)."
+
+#: includes/class-gglmps-add-new.php:400 includes/class-gglmps-add-new.php:431
+#: includes/class-gglmps-add-new.php:458 includes/class-gglmps-settings.php:221
+#: includes/class-gglmps-settings.php:252
+#: includes/class-gglmps-settings.php:270
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: includes/class-gglmps-add-new.php:410 includes/class-gglmps-add-new.php:466
+#: includes/class-gglmps-settings.php:231
+#: includes/class-gglmps-settings.php:278
+msgid "Controls Options"
+msgstr "Налаштування елементів управління"
+
+#: includes/class-gglmps-add-new.php:414 includes/class-gglmps-settings.php:235
+msgid "Visibility and map action controls."
+msgstr "Видимість і дії елементів управління карти."
+
+#: includes/class-gglmps-add-new.php:425 includes/class-gglmps-settings.php:246
+msgid "Rotate"
+msgstr "Обертати"
+
+#: includes/class-gglmps-add-new.php:426 includes/class-gglmps-settings.php:247
+msgid "This option is only available if View 45° option is checked."
+msgstr "Дана опція доступна лише якщо включена опція \"Вид 45°\"."
+
+#: includes/class-gglmps-add-new.php:436 includes/class-gglmps-settings.php:257
+msgid "Scale"
+msgstr "Шкала"
+
+#: includes/class-gglmps-add-new.php:449
+msgid "Style"
+msgstr "Стиль"
+
+#: includes/class-gglmps-add-new.php:454
+msgid ""
+"This option is only available for Roadmap, Terrain, and Hybrid map types."
+msgstr ""
+"Ця опція доступна тільки для Дорожнього, Рельєфного і Гібридного типів карт."
+
+#: includes/class-gglmps-add-new.php:461 includes/class-gglmps-settings.php:273
+msgid "Auto"
+msgstr "Авто"
+
+#: includes/class-gglmps-add-new.php:462 includes/class-gglmps-settings.php:274
+msgid "The map will be scaled to display all markers."
+msgstr "Карта буде масштабуватись для відображення всіх маркерів."
+
+#: includes/class-gglmps-add-new.php:470 includes/class-gglmps-settings.php:283
+msgid "Street View"
+msgstr "Перегляд вулиць"
+
+#: includes/class-gglmps-add-new.php:473 includes/class-gglmps-settings.php:288
+msgid "Draggable"
+msgstr "Переміщення мишкою"
+
+#: includes/class-gglmps-add-new.php:476 includes/class-gglmps-settings.php:293
+msgid "Double Click"
+msgstr "Подвійний клік"
+
+#: includes/class-gglmps-add-new.php:479 includes/class-gglmps-settings.php:298
+msgid "Scroll Wheel"
+msgstr "Колесо мишки"
+
+#: includes/class-gglmps-settings.php:24
+msgid "Misc"
+msgstr "Різне"
+
+#: includes/class-gglmps-settings.php:25
+msgid "Custom Code"
+msgstr "Користувацький код"
+
+#: includes/class-gglmps-settings.php:26
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: includes/class-gglmps-settings.php:76
+msgid "These settings will be applied to newly added maps by default."
+msgstr ""
+"Ці налаштування будуть застосовуватися до доданих карт за замовчуванням."
+
+#: includes/class-gglmps-settings.php:130
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+#: includes/class-gglmps-settings.php:145
+msgid "API Key"
+msgstr "API Ключ"
+
+#: includes/class-gglmps-settings.php:151
+msgid ""
+"Using an API key enables you to monitor your application Maps API usage, and "
+"ensures that Google can contact you about your application if necessary. If "
+"your application Maps API usage exceeds the"
+msgstr ""
+"Ключ API дозволяє відстежувати показники використання API Google Maps "
+"додатком та при необхідності дає можливість компанії Google зв’язатися з "
+"вами з приводу вашого додатку. Якщо показники використання API Google Maps "
+"додатком перевищать передбачені"
+
+#: includes/class-gglmps-settings.php:152
+msgid "Usage Limits"
+msgstr "ліміти користування"
+
+#: includes/class-gglmps-settings.php:153
+msgid ""
+"you must load the Maps API using an API key in order to purchase additional "
+"quota. Click"
+msgstr ""
+"то  замовлення додаткових квот завантаження інтерфейсу повинне виконуватися "
+"з використанням ключа API. Натисніть"
+
+#: includes/class-gglmps-settings.php:154
+msgid "here"
+msgstr "тут"
+
+#: includes/class-gglmps-settings.php:155
+msgid "to know how to get the API key"
+msgstr "щоб створити API ключ"
+
+#: includes/class-gglmps-settings.php:161
+msgid "Language"
+msgstr "Мова"
+
+#~ msgid "Google Map"
+#~ msgstr "Google Map"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Всі налаштування плагіну було скинуто до стандартних."
+
+#~ msgid "How to Use Step-by-step Instruction"
+#~ msgstr "Інструкція з використання"
+
+#~ msgid "Basic"
+#~ msgstr "Базові налаштування"
+
+#~ msgid "Go PRO"
+#~ msgstr "Оновити до Pro"
+
+#~ msgid "In the"
+#~ msgstr "У"
+
+#~ msgid "you can create a new map and in the"
+#~ msgstr "ви можете створити нову карту та "
+
+#~ msgid "you can find previously saved maps."
+#~ msgstr "покаже збережені раніше карти."
+
+#~ msgid "Please add the map by clicking on %s button"
+#~ msgstr "Додайте карту, натиснувши на кнопку %s"
+
+#~ msgid ""
+#~ "You can add the map to your content by clicking on %s button in the "
+#~ "content edit block using the Visual mode. If the button isn't displayed, "
+#~ "please use the shortcode %s, where * stands for map ID"
+#~ msgstr ""
+#~ "Ви можете додати карту в контент натиснувши на кнопку %s в блоці "
+#~ "редагування контенту в режимі Visual. Якщо не відображається кнопка, то "
+#~ "використовуйте шорткод %s, де * означає ID карти"
+
+#~ msgid "Learn More"
+#~ msgstr "Дізнатись більше"
+
+#~ msgid "Google Maps"
+#~ msgstr "Google Maps"
+
+#~ msgid "Save Map"
+#~ msgstr "Зберегти Карту"
+
+#~ msgid "Update Map"
+#~ msgstr "Оновити Карту"
+
+#~ msgid "To insert this map use %s button"
+#~ msgstr "Для вставки цієї карти використайте кнопку %s"
+
+#~ msgid ""
+#~ "You can add the map to your content by clicking on %s button in the "
+#~ "content edit block using the Visual mode. If the button isn't displayed, "
+#~ "please use the shortcode %s"
+#~ msgstr ""
+#~ "Ви можете додати карту в контент натиснувши на кнопку %s в блоці "
+#~ "редагування контенту в режимі Visual. Якщо не відображається кнопка, то "
+#~ "використовуйте шорткод %s"
+
+#~ msgid "Notice: "
+#~ msgstr "Зауважте: "
+
+#~ msgid ""
+#~ "you must load the Maps API using an API key in order to purchase "
+#~ "additional quota.Click"
+#~ msgstr ""
+#~ "то  замовлення додаткових квот завантаження інтерфейсу повинне "
+#~ "виконуватися з використанням ключа API.Натисніть"
+
+#~ msgid "Google Maps settings page."
+#~ msgstr "налаштуваннях Google Maps."
+
+#~ msgid "to know how to get the API keys"
+#~ msgstr "щоб створити API ключ"
+
+#~ msgid ""
+#~ "you must load the Maps API using an API key in order to purchase "
+#~ "additional quota. Click here to know how to get the API keys."
+#~ msgstr ""
+#~ "то для замовлення додаткових квот завантаження інтерфейсу повинна "
+#~ "проводитися з використанням ключа API. Натисніть тут щоб створити API "
+#~ "ключ."
+
+# @ gglmps
+#~ msgid "These settings are used as default when you create a new map."
+#~ msgstr ""
+#~ "Ці налаштування будуть використовуватися за замовчуванням при створенні "
+#~ "нової карти."
+
+# @ gglmps
+#~ msgid "you can find maps that have been previously saved."
+#~ msgstr "ви знайдете збережені раніше карти."
+
+# @ gglmps
+#~ msgid ""
+#~ "you must load the Maps API using an API key in order to purchase "
+#~ "additional quota. How to create a API key you can find"
+#~ msgstr ""
+#~ "то  замовлення додаткових квот завантаження інтерфейсу має відбуватись із "
+#~ "використанням ключа API. Як створити API ключ ви можете знайти"
+
+# @ gglmps
+#~ msgid ""
+#~ "This option is only available for the types of map Satellite and Hybrid "
+#~ "(if such snapshots are available)."
+#~ msgstr ""
+#~ "Ця опція доступна тільки для Супутникового та Гібридного типу карт (якщо "
+#~ "вони доступні)."
+
+# @ gglmps
+#~ msgid "Visibility and actions controls of the map."
+#~ msgstr "Видимість і дії елементів управління карти."
+
+#~ msgid ""
+#~ "You can use your own API key which allows using favorite styles from  "
+#~ "your Snazzymaps account"
+#~ msgstr ""
+#~ "Ви можете скористатися власним API ключом для можливості застосування "
+#~ "улюблених стилей Вашого аккаунту Snazzymaps"
+
+# @ gglmps
+#~ msgid "not found! You can return to the"
+#~ msgstr "не знайдено! Ви можете повернутись у"
+
+#~ msgid "In order to create a new map, you must enter the API key in the "
+#~ msgstr "Щоб створити нову карту, потрібно ввести ключ API в"
+
+#~ msgid "Google Maps settings. "
+#~ msgstr "налаштуваннях Google Maps."
+
+# @ gglmps
+#~ msgid ""
+#~ "This option is only available for the types of map Roadmap, Terrain and "
+#~ "Hybrid."
+#~ msgstr ""
+#~ "Дана опція доступна лише для дорожнього, рельєфного та гібридного типів "
+#~ "карт."
+
+#~ msgid "Google Maps Settings. "
+#~ msgstr "Налаштуваннях Google Maps. "
+
+#~ msgid "In order to create a new map, you must enter the API key on the "
+#~ msgstr "Щоб створити нову карту, потрібно ввести ключ API на"
+
+#~ msgid "plugin Settings page"
+#~ msgstr "Сторінці налаштування плагіну"
+
+# @ gglmps
+#, fuzzy
+#~| msgid "Settings saved."
+#~ msgid "Settings page plugin"
+#~ msgstr "Налаштування збережено."
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr ""
+#~ "При переході на Pro версію плагіну всі ваші налаштування буде збережено."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Активуйте преміум опції, перейшовши на Pro версію"
+
+# @ gglmps
+#~ msgid "Height (px)"
+#~ msgstr "Висота (пікс)"
+
+# @ gglmps
+#~ msgid "Find"
+#~ msgstr "Знайти"
+
+# @ gglmps
+#~ msgid "Pan"
+#~ msgstr "Переміщення"
+
+# @ gglmps
+#~ msgid "Overview Map"
+#~ msgstr "Карта Огляду"
+
+# @ gglmps
+#~ msgid "Overview Map Opened"
+#~ msgstr "Карта Огляду Відкрита"
+
+# @ gglmps
+#~ msgid ""
+#~ "The plugin's settings have been changed. Please, don't forget to click "
+#~ "the 'Save Settings' button."
+#~ msgstr ""
+#~ "Налаштування плагіну змінено. Будь ласка, не забудьте клікнути 'Зберегти "
+#~ "Налаштування'."
+
+# @ gglmps
+#~ msgid ""
+#~ "If you want to insert the map in any place on the site, please use the "
+#~ "shortcode"
+#~ msgstr "Щоб вставити карту в будь-якому місці, скористайтесь шорткодом"
+
+# @ gglmps
+#~ msgid "where * stands for map ID."
+#~ msgstr "де * це ID карти."
+
+#~ msgid "Go"
+#~ msgstr "Перейти на"
+
+# @ gglmps
+#~ msgid "Editor"
+#~ msgstr "Редактор"
+
+# @ gglmps
+#~ msgid "BestWebSoft Google Maps"
+#~ msgstr "BestWebSoft Google Maps"
+
+# @ gglmps
+#~ msgid "requires"
+#~ msgstr "требуется"
+
+# @ gglmps
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "или выше, вот почему плагин был деактивирован! Пожалуйста, обновите "
+#~ "WordPress и попробуйте снова."
+
+# @ gglmps
+#~ msgid "Back to the WordPress"
+#~ msgstr "Вернутся на страницу WordPress"
+
+#~ msgid "Plugins page"
+#~ msgstr "Страницу плагинов"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=https://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Что-то пошло не так. Повторите попытку позже. Если ошибка появится снова, "
+#~ "пожалуйста, свяжитесь с нами <a href=http://support.bestwebsoft."
+#~ "com>BestWebSoft</a>. Приносим извинения за неудобства."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Этот лицензионный ключ привязан к другому сайту"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "К сожалению, вы превысили количество доступных попыток в день. "
+#~ "Пожалуйста, загрузите плагин вручную."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr "е удалось открыть архив ZIP. Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Ваш сервер не поддерживает ни библиотеку ZipArchive, ни библиотеку Phar. "
+#~ "Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Не удалось загрузить архив плагина. Пожалуйста, загрузите плагин вручную"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvenience."
+#~ msgstr ""
+#~ "Что-то пошло не так. Повторите попытку позже. Если ошибка появится снова, "
+#~ "пожалуйста, свяжитесь с нами <a href=http://support.bestwebsoft."
+#~ "com>BestWebSoft</a>. Приносим извинения за неудобства."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Пожалуйста, введите Ваш лицензионный ключ"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr "Если вам понравился плагин то поставте нам 5 звезд на WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оценить плагин"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Если у вас есть какие-то вопросы, обращайтесь"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr ""
+#~ "Поздравляем! PRO версия плагина была успешно загружена и активирована."
+
+#~ msgid "Please, go to"
+#~ msgstr "Пожалуйста, перейдите на"
+
+#~ msgid "the setting page"
+#~ msgstr "страницу настроек"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Вы будете перенаправлены автоматически через 5 секунд."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Вы можете скачать и активировать"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "версию этого плагина, введя ваш лицензионный ключ."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Вы можете найти ваш лицензионный ключ на вашей личной странице Client "
+#~ "area, нажав на ссылку"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr ""
+#~ "(ваше имя пользователя - это электронный адрес, указанный при покупке "
+#~ "продукта)."
+
+#~ msgid "Go!"
+#~ msgstr "Перейти!"
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>BestWebSoft Google Maps plugin</strong> "
+#~ "to <strong>PRO</strong> version"
+#~ msgstr ""
+#~ "Пора обновить ваш <strong>плагин BestWebSoft Google Maps</strong> до "
+#~ "<strong>PRO</strong> версии"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Расширение стандартного функционала плагина новыми опциями"
+
+# @ gglmps
+#, fuzzy
+#~ msgid "Environment"
+#~ msgstr "Выравнивание"
+
+# @ gglmps
+#, fuzzy
+#~ msgid "Send to support"
+#~ msgstr "Поддержка"

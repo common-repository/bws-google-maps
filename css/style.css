@@ -1,0 +1,185 @@
+/*
+* BWS Google Maps styles
+*/
+#gglmps_settings_notice {
+	border-left: 4px solid #2ea2cc !important;
+	padding: 7px 12px;
+}
+.rtl #gglmps_settings_notice {
+	border-left: none !important;
+	border-right: 4px solid #2ea2cc !important;
+}
+.wp-list-table .column-gglmps-id {
+	width: 50px;
+}
+#gglmps_marker_location {
+	width: 100%;
+	*width: 98%;
+	margin: 0;
+	line-height: normal;
+}
+#gglmps_marker_tooltip {
+	width: 100%;
+	*width: 98%;
+	min-height: 100px;
+	margin: 0;
+	line-height: normal;
+	resize: none;
+}
+#gglmps_marker_update,
+#gglmps_marker_cancel {
+	display: none;	
+}
+#gglmps_markers_container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #ddd;
+	background: #fff;
+}
+#gglmps_markers_container .gglmps_no_markers {
+	margin: 5px;
+	padding: 5px;
+	list-style: none;
+}
+#gglmps_markers_container .gglmps_marker {
+	margin: 5px;
+	list-style: none;
+	word-wrap: break-word;
+	background: #eee;
+}
+#gglmps_markers_container .gglmps_marker_control {
+	font-size: 10px;
+	font-weight: 600;
+	overflow: hidden;
+	color: #fff;
+	background: #ccc;
+}
+#gglmps_markers_container .gglmps_marker_latlng {
+	max-width: 400px;
+	padding: 2px 5px;
+	float: left;
+	text-overflow:     ellipsis;
+	-o-text-overflow:  ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding:      url( 'bindings.xml#ellipsis' );
+	white-space: nowrap;
+	overflow: hidden;
+}
+#gglmps_markers_container .gglmps_marker_find,
+#gglmps_markers_container .gglmps_marker_edit,
+#gglmps_markers_container .gglmps_marker_delete {
+	padding: 2px 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	float: right;
+}
+#gglmps_markers_container .gglmps_marker_find:hover,
+#gglmps_markers_container .gglmps_marker_edit:hover,
+#gglmps_markers_container .gglmps_marker_delete:hover {
+	background: #bbb;
+}
+#gglmps_markers_container .gglmps_marker_data {
+	min-height: 50px;
+	padding: 0 0 0 50px;
+	background: url('../images/marker.png') 14px center no-repeat;
+}
+#gglmps_markers_container .gglmps_marker_location {
+	padding: 5px 0;
+	margin: 0 5px 0 0;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: dotted 1px #ccc;
+	word-wrap: break-word;
+}
+#gglmps_markers_container .gglmps_marker_tooltip {
+	min-height: 18px;
+	margin: 0 5px 0 0;
+	padding: 5px 0;
+	font-size: 13px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+#gglmps_markers_container .gglmps_marker textarea {
+	display: none;
+}
+#gglmps_main_api_key {
+	width: 100%;
+	margin: 0;
+	line-height: normal;
+}
+#gglmps_zoom_wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 165px;
+}
+#gglmps_zoom_wrap .ui-slider {
+	position: relative;
+	text-align: left;
+}
+#gglmps_zoom_wrap .ui-slider .ui-slider-handle {
+	position: absolute;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	z-index: 2;
+}
+#gglmps_zoom_wrap .ui-slider .ui-slider-handle:focus {
+	outline: none;
+}
+#gglmps_zoom_wrap .ui-slider-horizontal {
+	height: .8em;
+}
+#gglmps_zoom_wrap .ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+#gglmps_zoom_wrap .ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+}
+#gglmps_zoom_wrap .ui-state-default {
+	border: 1px solid #aaaaaa;
+	background: #eeeeee;
+}
+#gglmps_zoom_slider {
+	width: 155px;
+}
+#gglmps_zoom_value {
+	position: absolute;
+	top: -3px;
+	right: -30px;
+	color: #444;
+}
+.gglmps_editor_error {
+	border: 1px solid #dd3d36 !important;
+	background: #fff7f7 !important;
+}
+#gglmps_editor_context_menu {
+	position: absolute;
+	margin: 0;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.gglmps_editor_context_menu_item {
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	background: #fff url('../images/arrow.png') left top no-repeat;
+	white-space: nowrap;
+}
+.gglmps_editor_context_menu_item:hover {
+	background: #ddd url('../images/arrow.png') left top no-repeat;
+}
+#gglmps-zoom-container {
+	margin: 0 !important;
+}
+.gglmps-zoom-container label {
+	vertical-align: top;
+	margin: 0 4px 0 0;
+}
